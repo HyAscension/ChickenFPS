@@ -27,7 +27,7 @@ namespace HyVo_ChickenFPS
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-            Window.AllowUserResizing = true;
+            Window.AllowUserResizing = false;
         }
 
         protected override void Initialize()
